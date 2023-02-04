@@ -1,0 +1,18 @@
+{
+  "name": "dominant-color-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-average-color": "^9.3.0",
+    "fast-average-color-node": "^2.6.0",
+    "ws": "^8.12.0",
+    "body-parser": "*"
+  }
+}
