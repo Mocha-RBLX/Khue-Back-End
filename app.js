@@ -45,6 +45,8 @@ const SocketServer = require("ws").Server;
 const server = express().listen(serverPort);
 
 const wss = new SocketServer({server});
+console.log("WS");
+
 wss.on('connection', (ws) => {
     console.log("A user just connected");
     ws.on('message',(message)=>{
