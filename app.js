@@ -46,6 +46,7 @@ const server = express().listen(serverPort);
 
 const wss = new SocketServer({server});
 wss.on('connection', (ws) => {
+    console.log("A user just connected");
     ws.on('message',(message)=>{
         console.log('Message recieved. (%s)', message);
 
