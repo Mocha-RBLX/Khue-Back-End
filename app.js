@@ -36,6 +36,8 @@ var removeConnectedUser = function(name) {
 }
 
 const serverPort = process.env.PORT || 3000;
+console.log(serverPort);
+
 const express = require("express");
 const WebSocket = require("ws");
 const SocketServer = require("ws").Server;
